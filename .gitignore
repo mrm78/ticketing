@@ -120,8 +120,8 @@ ENV/
 **/ApiMedia/**
 !**/ApiMedia
 
-**/ApiStatic/**
-!**/ApiStatic
+**/static/**
+!**/static
 
 nohup.out
 
