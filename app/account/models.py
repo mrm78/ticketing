@@ -4,4 +4,7 @@ from rest_framework_simplejwt.tokens import RefreshToken
 
 
 class User(AbstractUser):
-    pass
+    
+    def new_token(self):
+        refresh = RefreshToken.for_user(self)
+        return str(refresh), str(refresh.access_token)
