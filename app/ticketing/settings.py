@@ -31,6 +31,8 @@ BASE_URL = os.getenv('BASE_URL')
 
 ALLOWED_HOSTS = ['*']
 
+AUTH_USER_MODEL = 'account.User'
+
 
 # Application definition
 
